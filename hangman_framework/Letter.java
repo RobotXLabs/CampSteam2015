@@ -1,3 +1,4 @@
+
 public class Letter{
 
     private boolean guessed;
