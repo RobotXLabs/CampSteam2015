@@ -10,6 +10,11 @@ public class Data{
 	public Data (){
 		relations = new Data[10];
 	}
+	public Data (String first_name, String last_name, int my_age){
+		firstName = first_name;
+		lastName = last_name;
+		age = my_age;
+	}
 
 	/*Getting and setting first name*/
 	public String getFirstName(){
